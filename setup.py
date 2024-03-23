@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='konfiDict',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     description='Eine dict mit besondern Fächkeiten',
     long_description=open('README.md').read(),
