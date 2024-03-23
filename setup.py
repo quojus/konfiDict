@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='konfigDict',
+    name='konfiDict',
     version='0.1',
     packages=find_packages(),
     description='Eine dict mit besondern Fächkeiten',
@@ -10,4 +10,7 @@ setup(
     author='Falk',
     url='https://github.com/quojus/konfiDict',
     python_requires='>=3.6',
+    nstall_requires=[
+        # Liste von erforderlichen Paketen
+    ]
 )
